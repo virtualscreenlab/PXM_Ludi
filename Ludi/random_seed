@@ -1,1 +1,8 @@
-
+Run Parameters
+     Title     : evo
+     Run Mode  : Evolutionary
+     Random    : 0
+     Gen Max   : 2
+     Max Surv  : 3
+     Max Top   : 10
+     ...
