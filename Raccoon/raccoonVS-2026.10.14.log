@@ -1,0 +1,263 @@
+
+ 	      ________________________________________________________________
+	
+	__________//___________________________/////___________________/____________
+	_________/__/__________________________/____/__________________/____________
+	________/____/___________/_____________/_____/_________________/____________
+	________/____/__/_____/_/////___/////__/_____/__/////___/////__/___/________
+	_______/______/_/_____/__/_____/_____/_/_____/_/_____/_/_____/_/_//_________
+	_______////////_/_____/__/_____/_____/_/_____/_/_____/_/_______//_/_________
+	_______/______/_/____//__/___/_/_____/_/____/__/_____/_/_____/_/___/________
+	_______/______/__////_/___///___/////__/////____/////___/////__/____/_______
+	
+	      ________________________________________________________________
+	                                 ______ 
+	                                /      \ 
+	                               /        \ 
+	                              /          \   Raccoon
+	                              \    /\    /    Virtual 
+	                               \  /  \  /      Screening 
+	                                \/ /\ \/        Generation      
+	                                 /\  \ 
+	                               /\  \__\    version 1.0  
+	                              /  \__\ 
+	                             /____\
+		
+		
+                  date :	2026-October-14 12:11
+      output directory :	/media/asus/ADATA/Ludi_PXM/raccoon
+    total docking jobs :	111
+      operative system :	Linux [ asus-F509FB ]
+   generating jobs for :	Workstation
+
+
+      ===================================== Ligand filters =========================================
+	
+                       Filtering criteria
+                       ------------------
+                                   MIN      MAX
+                    Hb donors :      0  -    99
+                 Hb acceptors :      0  -    99
+             Molecular weight :      0  -  9999
+        Total number of atoms :      0  -   999
+              Rotatable bonds :      0  -    32
+		Reject non-AD atypes  :   True
+	
+	
+		Ligands accepted for the virtual-screening: 111
+
+
+
+      ============================= Single target receptor ==========================================
+
+   Target structure:
+TARGET>	/media/asus/ADATA/Ludi_PXM/ref/receptor.protein.pdbqt
+
+      ===================================== Maps ====================================================
+
+   Grid mode : calculated in each job.
+   Grid param file template :
+
+
+GPF>	npts 60 60 60                        # num.grid points in xyz
+GPF>	gridfld receptor.protein.maps.fld    # grid_data_file
+GPF>	spacing 0.375                        # spacing(A)
+GPF>	receptor_types A C HD N NA OA SA     # receptor atom types
+GPF>	ligand_types A C Cl F HD N NA OA     # ligand atom types
+GPF>	receptor receptor.protein.pdbqt      # macromolecule
+GPF>	gridcenter -6.61 86.63 19.59         # xyz-coordinates or auto
+GPF>	smooth 0.5                           # store minimum energy w/in rad(A)
+GPF>	map receptor.protein.A.map           # atom-specific affinity map
+GPF>	map receptor.protein.C.map           # atom-specific affinity map
+GPF>	map receptor.protein.Cl.map          # atom-specific affinity map
+GPF>	map receptor.protein.F.map           # atom-specific affinity map
+GPF>	map receptor.protein.HD.map          # atom-specific affinity map
+GPF>	map receptor.protein.N.map           # atom-specific affinity map
+GPF>	map receptor.protein.NA.map          # atom-specific affinity map
+GPF>	map receptor.protein.OA.map          # atom-specific affinity map
+GPF>	elecmap receptor.protein.e.map       # electrostatic potential map
+GPF>	dsolvmap receptor.protein.d.map              # desolvation potential map
+GPF>	dielectric -0.1465                   # <0, AD4 distance-dep.diel;>0, constant
+
+     ==================================  Docking parameters ========================================
+
+   Docking mode : docking parameters will be >generated from template< for each ligand.
+   Docking param file template :
+
+
+DPF>	autodock_parameter_version 4.2       # used by autodock to validate parameter set
+DPF>	outlev 1                             # diagnostic output level
+DPF>	intelec                              # calculate internal electrostatics
+DPF>	seed pid time                        # seeds for random generator
+DPF>	ligand_types A C Cl F HD N NA OA     # atoms types in ligand
+DPF>	fld receptor.protein.maps.fld        # grid_data_file
+DPF>	map receptor.protein.A.map           # atom-specific affinity map
+DPF>	map receptor.protein.C.map           # atom-specific affinity map
+DPF>	map receptor.protein.Cl.map          # atom-specific affinity map
+DPF>	map receptor.protein.F.map           # atom-specific affinity map
+DPF>	map receptor.protein.HD.map          # atom-specific affinity map
+DPF>	map receptor.protein.N.map           # atom-specific affinity map
+DPF>	map receptor.protein.NA.map          # atom-specific affinity map
+DPF>	map receptor.protein.OA.map          # atom-specific affinity map
+DPF>	elecmap receptor.protein.e.map       # electrostatics map
+DPF>	desolvmap receptor.protein.d.map     # desolvation map
+DPF>	move ligand.pdbqt                    # small molecule
+DPF>	about -7.3697 86.7214 18.8829        # small molecule center
+DPF>	tran0 random                         # initial coordinates/A or random
+DPF>	quaternion0 random                   # initial orientation
+DPF>	dihe0 random                         # initial dihedrals (relative) or random
+DPF>	torsdof 5                            # torsional degrees of freedom
+DPF>	rmstol 2.0                           # cluster_tolerance/A
+DPF>	extnrg 1000.0                        # external grid energy
+DPF>	e0max 0.0 10000                      # max initial energy; max number of retries
+DPF>	ga_pop_size 150                      # number of individuals in population
+DPF>	ga_num_evals 2500000                 # maximum number of energy evaluations
+DPF>	ga_num_generations 27000             # maximum number of generations
+DPF>	ga_elitism 1                         # number of top individuals to survive to next generation
+DPF>	ga_mutation_rate 0.02                # rate of gene mutation
+DPF>	ga_crossover_rate 0.8                # rate of crossover
+DPF>	ga_window_size 10                    # 
+DPF>	ga_cauchy_alpha 0.0                  # Alpha parameter of Cauchy distribution
+DPF>	ga_cauchy_beta 1.0                   # Beta parameter Cauchy distribution
+DPF>	set_ga                               # set the above parameters for GA or LGA
+DPF>	sw_max_its 300                       # iterations of Solis & Wets local search
+DPF>	sw_max_succ 4                        # consecutive successes before changing rho
+DPF>	sw_max_fail 4                        # consecutive failures before changing rho
+DPF>	sw_rho 1.0                           # size of local search space to sample
+DPF>	sw_lb_rho 0.01                       # lower bound on rho
+DPF>	ls_search_freq 0.06                  # probability of performing local search on individual
+DPF>	set_psw1                             # set the above pseudo-Solis & Wets parameters
+DPF>	unbound_model extended               # state of unbound ligand
+DPF>	ga_run 10                            # do this many hybrid GA-LS runs
+DPF>	analysis                             # perform a ranked cluster analysis
+
+     ======================================  Ligands list ============================================
+
+
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000036.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000027.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000055.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/ludi/pdbqt/ludi_000005.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000015.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000020.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000045.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000072.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000008.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000042.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000013.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000061.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/ludi/pdbqt/ludi_000004.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/ludi/pdbqt/ludi_000001.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000097.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000005.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000080.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000089.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000017.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000034.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000046.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000038.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000052.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000040.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000012.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000054.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000011.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000069.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000096.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/ludi/pdbqt/ludi_000007.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000084.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000004.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000095.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000031.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000041.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000050.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000063.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000014.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000001.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000064.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/ludi/pdbqt/ludi_000002.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000086.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000030.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000060.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000083.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000078.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000043.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000032.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000066.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000007.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000051.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000082.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/ludi/pdbqt/ludi_000003.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000033.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000093.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000019.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000022.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000059.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000067.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000039.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000009.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000025.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000053.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000044.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/ludi/pdbqt/ludi_000008.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000068.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000076.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/ludi/pdbqt/ludi_000010.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000081.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000024.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000049.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/ludi/pdbqt/ludi_000011.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000021.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000006.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000029.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000065.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000018.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/ref/ligand.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000070.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/ludi/pdbqt/ludi_000006.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000048.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000023.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000088.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000090.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000073.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000099.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000003.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000079.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000058.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000062.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000075.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000091.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000047.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000002.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000010.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000085.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000094.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/ludi/pdbqt/ludi_000009.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000071.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000035.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000026.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000098.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000037.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000056.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000057.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000074.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000077.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000087.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000092.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000016.pdbqt
+LIGAND> /media/asus/ADATA/Ludi_PXM/raccoon/pxm/pdbqt/pxm_000028.pdbqt
+
+
+     ======================================================================================================
+     ======================================================================================================
+
+                              G E N E R A T I O N    S T A R T E D
+
+
+
+			 process completed successfully.
+
+
+
+
+
+[DONE]

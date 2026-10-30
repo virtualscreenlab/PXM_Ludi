@@ -1,0 +1,110 @@
+ largestCl_dlgfn    #runs #cl #LC    LE_LC     rmsd_LC #ats #tors
+ ligand_receptor.protein/ligand_receptor.protein, 10, 10,  1,-12.5900,  1.2867,  36, 5
+ ludi_000001_receptor.protein/ludi_000001, 30, 21,  6,-15.0800, 11.8161,  50, 9
+ ludi_000002_receptor.protein/ludi_000002, 20, 14,  6,-15.0500, 11.6871,  50, 9
+ ludi_000003_receptor.protein/ludi_000003, 20,  8,  5,-14.6800,  8.9473,  49, 8
+ ludi_000004_receptor.protein/ludi_000004, 30, 22,  3, -9.8000, 13.8246,  51, 9
+ ludi_000005_receptor.protein/ludi_000005, 30, 26,  3, -9.1300,  8.8312,  53,10
+ ludi_000006_receptor.protein/ludi_000006, 20,  8,  6,-14.1800,  6.7707,  52, 9
+ ludi_000008_receptor.protein/ludi_000008, 20, 11,  9,-16.1800,  7.1529,  51,10
+ ludi_000009_receptor.protein/ludi_000009, 20,  9,  5,-15.2900,  8.6578,  50, 9
+ ludi_000010_receptor.protein/ludi_000010, 20,  5,  8,-14.7400, 12.4333,  52,10
+ ludi_000011_receptor.protein/ludi_000011, 20,  7,  9,-15.4400, 10.8398,  50, 9
+ pxm_000001_receptor.protein/pxm_000001, 20,  4,  9,-10.9200,  8.2812,  31, 3
+ pxm_000002_receptor.protein/pxm_000002, 20,  1, 20,-11.4500,  3.8494,  32, 5
+ pxm_000003_receptor.protein/pxm_000003, 20,  5, 13,-10.4800,  3.2350,  32, 4
+ pxm_000004_receptor.protein/pxm_000004, 20,  4, 14,-10.9000,  9.1157,  31, 3
+ pxm_000005_receptor.protein/pxm_000005, 30, 10, 14, -9.4800,  8.8485,  31, 5
+ pxm_000006_receptor.protein/pxm_000006, 20,  3, 17,-11.4600,  8.8773,  33, 7
+ pxm_000007_receptor.protein/pxm_000007, 20,  6, 13,-11.4700,  1.6442,  32, 8
+ pxm_000008_receptor.protein/pxm_000008, 30,  9, 11, -7.5500,  9.1646,  27, 6
+ pxm_000009_receptor.protein/pxm_000009, 20,  3, 14,-11.5100,  1.2055,  29, 4
+ pxm_000010_receptor.protein/pxm_000010, 20,  6,  6,-10.3100,  9.8608,  29, 7
+ pxm_000011_receptor.protein/pxm_000011_receptor.protein, 30,  7, 13, -9.6000, 10.8919,  33, 6
+ pxm_000012_receptor.protein/pxm_000012, 30, 23,  3, -8.6500,  2.3221,  37,10
+ pxm_000013_receptor.protein/pxm_000013, 30,  6,  9, -8.4500,  9.3318,  31, 5
+ pxm_000014_receptor.protein/pxm_000014, 20,  3, 14,-10.0800,  1.9174,  29, 4
+ pxm_000015_receptor.protein/pxm_000015, 30, 16,  8, -9.8500, 10.5047,  33,12
+ pxm_000016_receptor.protein/pxm_000016, 20,  2, 19,-10.0200,  1.5255,  30, 4
+ pxm_000017_receptor.protein/pxm_000017, 30,  6, 15,-10.2700,  1.7245,  32, 6
+ pxm_000018_receptor.protein/pxm_000018, 20, 10,  4,-10.1900,  1.6516,  32, 9
+ pxm_000019_receptor.protein/pxm_000019, 20,  5, 13, -9.2800,  0.9981,  29, 6
+ pxm_000020_receptor.protein/pxm_000020, 30,  3, 27,-10.8800,  2.0737,  30, 3
+ pxm_000021_receptor.protein/pxm_000021, 20,  2, 19,-11.5900,  1.8052,  29, 3
+ pxm_000022_receptor.protein/pxm_000022, 20,  4, 12,-11.2100,  2.3382,  29, 4
+ pxm_000023_receptor.protein/pxm_000023, 20,  6,  8, -9.7400, 10.2297,  33, 8
+ pxm_000024_receptor.protein/pxm_000024, 20,  5, 16,-11.3700,  2.4520,  27, 4
+ pxm_000025_receptor.protein/pxm_000025, 20,  3, 12, -9.3700,  1.2888,  31, 6
+ pxm_000026_receptor.protein/pxm_000026, 20,  7, 10, -9.1600, 11.0992,  34, 8
+ pxm_000027_receptor.protein/pxm_000027, 30,  8,  8, -9.6300,  8.6799,  28, 7
+ pxm_000028_receptor.protein/pxm_000028, 20,  3, 16,-10.1000,  9.9690,  34, 6
+ pxm_000029_receptor.protein/pxm_000029, 20,  5, 11,-11.0500,  2.0262,  27, 6
+ pxm_000030_receptor.protein/pxm_000030, 20,  4, 12, -8.7500, 10.3475,  28, 6
+ pxm_000031_receptor.protein/pxm_000031, 20,  4,  9,-10.4700,  8.4521,  34, 5
+ pxm_000032_receptor.protein/pxm_000032, 20,  7,  8,-11.2500,  1.5371,  32, 7
+ pxm_000033_receptor.protein/pxm_000033, 20,  6, 12, -9.5000,  7.8142,  28, 6
+ pxm_000034_receptor.protein/pxm_000034, 30,  9, 19,-10.6100,  1.3945,  30, 7
+ pxm_000035_receptor.protein/pxm_000035, 20,  3, 15,-10.3700,  3.3470,  31, 4
+ pxm_000036_receptor.protein/pxm_000036, 30, 12, 13,-10.3700,  1.3550,  30, 7
+ pxm_000037_receptor.protein/pxm_000037, 20,  2, 11, -9.5000,  1.2670,  25, 6
+ pxm_000038_receptor.protein/pxm_000038, 30, 10, 19, -9.2700,  1.9721,  27, 8
+ pxm_000039_receptor.protein/pxm_000039, 20,  2, 19,-10.2100,  1.0041,  29, 4
+ pxm_000040_receptor.protein/pxm_000040, 30,  5, 17, -9.7200,  0.9340,  28, 4
+ pxm_000041_receptor.protein/pxm_000041, 20,  2, 15, -9.6100,  2.6953,  28, 6
+ pxm_000042_receptor.protein/pxm_000042, 30, 10, 11,-10.7600,  3.0062,  33, 8
+ pxm_000043_receptor.protein/pxm_000043, 20,  4, 12,-10.5200,  8.5402,  31, 4
+ pxm_000044_receptor.protein/pxm_000044, 20,  5, 15,-10.1400,  1.1602,  29, 6
+ pxm_000045_receptor.protein/pxm_000045, 30, 10, 10,-10.1400,  8.5807,  31, 5
+ pxm_000046_receptor.protein/pxm_000046, 30, 15, 13, -8.8200,  1.3415,  28, 8
+ pxm_000047_receptor.protein/pxm_000047, 20,  3, 11, -9.6200,  1.7500,  27, 8
+ pxm_000048_receptor.protein/pxm_000048, 20,  4, 12, -9.2500,  9.8837,  31, 7
+ pxm_000049_receptor.protein/pxm_000049, 20,  4, 15, -9.0300,  2.1145,  28, 7
+ pxm_000050_receptor.protein/pxm_000050, 20,  2, 19,-10.5800,  2.6672,  30, 5
+ pxm_000051_receptor.protein/pxm_000051, 20,  5, 15,-10.5600,  1.1001,  31, 7
+ pxm_000052_receptor.protein/pxm_000052, 30,  1, 30,-10.1900,  2.3045,  28, 4
+ pxm_000053_receptor.protein/pxm_000053, 20, 10,  5,-11.3800,  2.6550,  33, 7
+ pxm_000054_receptor.protein/pxm_000054, 30,  3, 28, -9.7000,  0.7173,  29, 5
+ pxm_000055_receptor.protein/pxm_000055, 30,  8, 16,-11.8100,  9.0541,  32, 8
+ pxm_000056_receptor.protein/pxm_000056, 20,  3, 14,-10.0800,  7.7204,  31, 5
+ pxm_000057_receptor.protein/pxm_000057, 20,  1, 20, -9.4300,  1.4720,  27, 4
+ pxm_000058_receptor.protein/pxm_000058, 20,  3, 10,-10.3800,  1.6827,  26, 5
+ pxm_000059_receptor.protein/pxm_000059, 20,  5, 14, -8.7100,  2.3391,  28, 7
+ pxm_000060_receptor.protein/pxm_000060, 20,  2, 16,-10.2700,  3.0924,  34, 6
+ pxm_000061_receptor.protein/pxm_000061, 30,  3, 26,-10.8300, 10.1557,  33, 4
+ pxm_000062_receptor.protein/pxm_000062, 20,  4, 14,-10.7800,  0.9852,  31, 4
+ pxm_000063_receptor.protein/pxm_000063, 20,  8,  6, -8.5700,  9.9843,  32, 7
+ pxm_000064_receptor.protein/pxm_000064, 20,  2, 14, -9.0000,  3.0149,  29, 6
+ pxm_000065_receptor.protein/pxm_000065, 20,  2, 18, -9.8200,  2.2784,  29, 6
+ pxm_000066_receptor.protein/pxm_000066, 20,  6, 13,-10.4200,  1.5667,  28, 6
+ pxm_000067_receptor.protein/pxm_000067, 20,  1, 20,-10.2100,  1.7073,  28, 4
+ pxm_000068_receptor.protein/pxm_000068, 20,  2, 12, -9.5300,  9.4420,  32, 6
+ pxm_000069_receptor.protein/pxm_000069, 30,  9, 19,-12.0800,  1.2753,  30, 5
+ pxm_000070_receptor.protein/pxm_000070, 20,  5, 12, -9.6100,  0.9261,  30, 4
+ pxm_000071_receptor.protein/pxm_000071, 20,  4, 17,-10.5800,  1.2582,  28, 4
+ pxm_000072_receptor.protein/pxm_000072, 30,  9, 12, -8.7300,  9.6472,  31, 7
+ pxm_000073_receptor.protein/pxm_000073, 20,  5, 15, -9.3700, 10.7265,  32, 6
+ pxm_000074_receptor.protein/pxm_000074, 20,  3, 17,-11.4700,  9.3229,  31, 5
+ pxm_000075_receptor.protein/pxm_000075, 20,  4, 15, -9.4800,  2.2071,  30, 7
+ pxm_000076_receptor.protein/pxm_000076, 20,  3, 12,-12.0700,  2.8339,  33, 5
+ pxm_000077_receptor.protein/pxm_000077, 20,  3, 15,-10.8700,  1.6215,  32, 7
+ pxm_000078_receptor.protein/pxm_000078, 20,  6,  8, -8.4600,  2.7189,  27, 6
+ pxm_000079_receptor.protein/pxm_000079, 20,  6,  9,-10.7100,  1.8643,  30, 6
+ pxm_000080_receptor.protein/pxm_000080, 30, 11, 17,-11.2900, 10.5549,  34, 6
+ pxm_000081_receptor.protein/pxm_000081, 20,  2, 10,-11.1600,  8.9834,  30, 6
+ pxm_000082_receptor.protein/pxm_000082, 20,  1, 20,-10.4300,  9.5000,  29, 6
+ pxm_000084_receptor.protein/pxm_000084, 20,  2, 19,-10.7500,  2.7234,  30, 4
+ pxm_000085_receptor.protein/pxm_000085, 20,  5, 14,-11.1700, 12.6360,  34, 8
+ pxm_000086_receptor.protein/pxm_000086, 20,  6,  8, -8.8000,  1.3661,  33, 9
+ pxm_000087_receptor.protein/pxm_000087, 20,  6, 10, -8.9600,  1.2585,  32, 6
+ pxm_000088_receptor.protein/pxm_000088, 20,  8,  7,-11.0100, 10.8188,  36, 7
+ pxm_000089_receptor.protein/pxm_000089, 30,  6, 18,-10.2400,  2.1757,  31, 4
+ pxm_000090_receptor.protein/pxm_000090, 20,  3, 18,-11.1000,  1.4911,  32, 6
+ pxm_000091_receptor.protein/pxm_000091, 20,  3, 17,-11.9100,  2.6010,  31, 6
+ pxm_000092_receptor.protein/pxm_000092, 20,  4,  7,-10.1000,  2.3811,  32, 4
+ pxm_000093_receptor.protein/pxm_000093, 20,  2, 18,-11.0000,  0.9432,  29, 4
+ pxm_000094_receptor.protein/pxm_000094, 20,  1, 20,-10.3200,  2.7639,  28, 3
+ pxm_000095_receptor.protein/pxm_000095, 20,  2, 19,-11.6900,  0.8253,  29, 4
+ pxm_000096_receptor.protein/pxm_000096, 30,  5, 16,-11.3700,  1.0196,  29, 4
+ pxm_000097_receptor.protein/pxm_000097, 30,  9, 12, -9.5200,  2.9353,  33, 8
+ pxm_000098_receptor.protein/pxm_000098, 20,  5, 14,-10.0400,  2.5051,  30, 7
+ pxm_000099_receptor.protein/pxm_000099, 20,  4, 16, -9.4900,  9.0709,  33, 7
