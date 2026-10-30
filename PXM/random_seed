@@ -1,1 +1,3 @@
+grep -n "complete_seed" outputs_sbdd_8C7Y/*/sbdd_simple_8c7y.yml
+6:  complete_seed: 8057
 
