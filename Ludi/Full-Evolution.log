@@ -1,0 +1,300 @@
+
+		==========================================
+		|                                        |
+		|       De-novo Evolution                |
+		|                                        |
+		| Copyright 2015 Accelrys - San Diego CA |
+		|                                        |
+		|  build date:  Dec 16 2015   10:33:33   |
+		|  version: 1.40                         |
+		|                                        |
+		==========================================
+
+		 Start of execution: Mon Oct 12 11:48:23 2026
+
+
+Checked out license feature: DS_DeNovoEvolution <v2009.03> [for msi] (1 copy)
+
+
+
+ 	 Run Parameters 
+		 Title     : evo
+		 Run Mode  : Evolutionary
+		 Random    : 0
+		 Gen Max   : 2
+		 Max Surv  : 3
+		 Max Top   : 10
+		 Score:    : -PLP1
+		 Scaffold  : ./scaffold.sd
+		 Protein   : ./8c7y.pdb
+		 Ludi Input: inhibitor-input.dat
+		 Remove Duplicates:  ON
+		 Clash-check:  OFF
+		 Results: denovo_results.sd
+		 Server Dir: C:\Program Files\BIOVIA\PPS\apps\scitegic\dscore/server/bin
+
+
+	 1) Fragment Target    Library: C:\Program Files\BIOVIA\Discovery Studio 2016\share\Ludi\link\fragment_link.inp 
+	 1) Fragment Structure Library: C:\Program Files\BIOVIA\Discovery Studio 2016\share\Ludi\link\fragment_link.struct 
+
+
+
+ Verifying Sever Executables:
+	inhibitor: C:\Program Files\BIOVIA\PPS\apps\scitegic\dscore/server/bin/inhibitor .....ok
+	ludi_score: C:\Program Files\BIOVIA\PPS\apps\scitegic\dscore/server/bin/ludi_score .....ok
+	ligfit_ext: C:\Program Files\BIOVIA\PPS\apps\scitegic\dscore/server/bin/ligfit_ext .....ok
+	Inhibitor output re-directed to: evo-ludi.out
+
+	 Scoring Function: -PLP1
+
+	 Initial Scaffold: 
+	 Score:  -PLP1: 157.7, MW: 478.88, atoms: 51, bonds: 54
+
+	Link Library: C:\Program Files\BIOVIA\Discovery Studio 2016\share\Ludi\link\fragment_link.inp 
+
+
+	 GENERATION: 1 FAMILY 1 Scaffold:   
+	fragments found: 89 
+
+ Molecules created: 75 (duplicates removed: 14)
+
+   1) gen: 1 fam: 1 SCORE: 189.77/f238 atoms: 65 MW: 594.02 label: U64
+   2) gen: 1 fam: 1 SCORE: 189.62/f349 atoms: 68 MW: 621.04 label: U46
+   3) gen: 1 fam: 1 SCORE: 187.15/f247 atoms: 65 MW: 594.02 label: U60
+   4) gen: 1 fam: 1 SCORE: 185.02/f320 atoms: 65 MW: 581.02 label: T09
+   5) gen: 1 fam: 1 SCORE: 184.84/f303 atoms: 66 MW: 584.02 label: UE8
+   6) gen: 1 fam: 1 SCORE: 183.43/f341 atoms: 75 MW: 626.10 label: UH4
+   7) gen: 1 fam: 1 SCORE: 183.41/f337 atoms: 67 MW: 583.04 label: T14
+   8) gen: 1 fam: 1 SCORE: 183.15/f371 atoms: 64 MW: 573.00 label: U84
+   9) gen: 1 fam: 1 SCORE: 181.88/f372 atoms: 62 MW: 570.98 label: U37
+  10) gen: 1 fam: 1 SCORE: 181.50/f435 atoms: 67 MW: 578.02 label: U26
+  11) gen: 1 fam: 1 SCORE: 181.48/f357 atoms: 63 MW: 582.99 label: UF4
+  12) gen: 1 fam: 1 SCORE: 179.99/f353 atoms: 62 MW: 557.99 label: U86
+  13) gen: 1 fam: 1 SCORE: 179.86/f279 atoms: 64 MW: 563.99 label: U22
+  14) gen: 1 fam: 1 SCORE: 179.82/f314 atoms: 70 MW: 619.07 label: T07
+  15) gen: 1 fam: 1 SCORE: 179.40/f151 atoms: 61 MW: 554.98 label: T17
+  16) gen: 1 fam: 1 SCORE: 179.08/f122 atoms: 69 MW: 598.05 label: U67
+  17) gen: 1 fam: 1 SCORE: 179.02/f207 atoms: 61 MW: 558.97 label: UC2
+  18) gen: 1 fam: 1 SCORE: 178.96/f292 atoms: 68 MW: 586.04 label: UD9
+  19) gen: 1 fam: 1 SCORE: 178.84/f257 atoms: 65 MW: 572.01 label: UD6
+  20) gen: 1 fam: 1 SCORE: 178.66/f319 atoms: 63 MW: 570.00 label: UE3
+  21) gen: 1 fam: 1 SCORE: 177.36/f187 atoms: 65 MW: 572.01 label: UD7
+  22) gen: 1 fam: 1 SCORE: 176.81/f326 atoms: 70 MW: 597.06 label: T15
+  23) gen: 1 fam: 1 SCORE: 176.73/f265 atoms: 63 MW: 579.00 label: C16
+  24) gen: 1 fam: 1 SCORE: 176.71/f300 atoms: 65 MW: 585.01 label: U38
+  25) gen: 1 fam: 1 SCORE: 176.45/f165 atoms: 70 MW: 610.06 label: U76
+  26) gen: 1 fam: 1 SCORE: 176.26/f353 atoms: 75 MW: 613.10 label: T11
+  27) gen: 1 fam: 1 SCORE: 176.26/f317 atoms: 66 MW: 597.02 label: UF3
+  28) gen: 1 fam: 1 SCORE: 176.23/f366 atoms: 68 MW: 586.04 label: UE0
+  29) gen: 1 fam: 1 SCORE: 176.10/f232 atoms: 64 MW: 563.99 label: U75
+  30) gen: 1 fam: 1 SCORE: 175.97/f324 atoms: 68 MW: 599.03 label: UB4
+  31) gen: 1 fam: 1 SCORE: 175.50/f137 atoms: 73 MW: 624.09 label: U77
+  32) gen: 1 fam: 1 SCORE: 174.20/f183 atoms: 67 MW: 561.03 label: T08
+  33) gen: 1 fam: 1 SCORE: 174.10/f306 atoms: 59 MW: 543.96 label: U11
+  34) gen: 1 fam: 1 SCORE: 174.02/f393 atoms: 68 MW: 586.04 label: UE1
+  35) gen: 1 fam: 1 SCORE: 174.02/f338 atoms: 59 MW: 538.94 label: UC6
+  36) gen: 1 fam: 1 SCORE: 173.91/f269 atoms: 64 MW: 569.01 label: T18
+  37) gen: 1 fam: 1 SCORE: 173.86/f309 atoms: 65 MW: 585.01 label: U34
+  38) gen: 1 fam: 1 SCORE: 173.24/f295 atoms: 66 MW: 584.02 label: U59
+  39) gen: 1 fam: 1 SCORE: 173.08/f353 atoms: 64 MW: 573.00 label: UC5
+  40) gen: 1 fam: 1 SCORE: 172.79/f295 atoms: 57 MW: 541.94 label: CH2
+  41) gen: 1 fam: 1 SCORE: 172.58/f296 atoms: 71 MW: 578.06 label: U56
+  42) gen: 1 fam: 1 SCORE: 171.86/f345 atoms: 58 MW: 544.94 label: C46
+  43) gen: 1 fam: 1 SCORE: 171.80/f150 atoms: 59 MW: 543.96 label: U13
+  44) gen: 1 fam: 1 SCORE: 171.07/f255 atoms: 65 MW: 550.01 label: U54
+  45) gen: 1 fam: 1 SCORE: 170.84/f212 atoms: 62 MW: 535.98 label: U53
+  46) gen: 1 fam: 1 SCORE: 170.64/f283 atoms: 68 MW: 564.03 label: U55
+  47) gen: 1 fam: 1 SCORE: 169.27/f308 atoms: 62 MW: 559.98 label: UH7
+  48) gen: 1 fam: 1 SCORE: 169.17/f279 atoms: 62 MW: 557.99 label: U85
+  49) gen: 1 fam: 1 SCORE: 168.50/f316 atoms: 58 MW: 518.95 label: C31
+  50) gen: 1 fam: 1 SCORE: 168.37/f270 atoms: 62 MW: 557.99 label: U88
+  51) gen: 1 fam: 1 SCORE: 168.12/f414 atoms: 58 MW: 544.94 label: C44
+  52) gen: 1 fam: 1 SCORE: 167.11/f233 atoms: 63 MW: 534.99 label: T02
+  53) gen: 1 fam: 1 SCORE: 166.72/f298 atoms: 65 MW: 566.99 label: U71
+  54) gen: 1 fam: 1 SCORE: 166.49/f400 atoms: 59 MW: 521.95 label: U17
+  55) gen: 1 fam: 1 SCORE: 166.48/f268 atoms: 66 MW: 549.02 label: T03
+  56) gen: 1 fam: 1 SCORE: 166.32/f323 atoms: 60 MW: 522.96 label: UE7
+  57) gen: 1 fam: 1 SCORE: 165.44/f143 atoms: 61 MW: 558.97 label: UC3
+  58) gen: 1 fam: 1 SCORE: 165.36/f424 atoms: 61 MW: 549.97 label: U23
+  59) gen: 1 fam: 1 SCORE: 165.25/f325 atoms: 57 MW: 508.93 label: UE6
+  60) gen: 1 fam: 1 SCORE: 165.13/f341 atoms: 52 MW: 494.88 label: U04
+  61) gen: 1 fam: 1 SCORE: 165.10/f305 atoms: 57 MW: 506.94 label: T01
+  62) gen: 1 fam: 1 SCORE: 165.07/f308 atoms: 59 MW: 545.95 label: UH5
+  63) gen: 1 fam: 1 SCORE: 164.68/f312 atoms: 55 MW: 508.91 label: U05
+  64) gen: 1 fam: 1 SCORE: 163.70/f221 atoms: 54 MW: 494.91 label: UE5
+  65) gen: 1 fam: 1 SCORE: 163.38/f297 atoms: 56 MW: 507.93 label: U19
+  66) gen: 1 fam: 1 SCORE: 163.33/f323 atoms: 59 MW: 521.95 label: U52
+  67) gen: 1 fam: 1 SCORE: 163.08/f261 atoms: 53 MW: 493.90 label: U20
+  68) gen: 1 fam: 1 SCORE: 161.32/f291 atoms: 55 MW: 504.92 label: C24
+  69) gen: 1 fam: 1 SCORE: 160.65/f310 atoms: 53 MW: 502.91 label: C21
+  70) gen: 1 fam: 1 SCORE: 160.59/f376 atoms: 66 MW: 586.02 label: U97
+  71) gen: 1 fam: 1 SCORE: 159.56/f306 atoms: 62 MW: 535.98 label: U15
+  72) gen: 1 fam: 1 SCORE: 157.66/f235 atoms: 67 MW: 583.04 label: T13
+  73) gen: 1 fam: 1 SCORE: 157.24/f269 atoms: 70 MW: 579.04 label: U44
+  74) gen: 1 fam: 1 SCORE: 147.89/f361 atoms: 61 MW: 536.96 label: UA6
+  75) gen: 1 fam: 1 SCORE: 147.19/f358 atoms: 57 MW: 528.94 label: C01
+
+
+		 ---- SELECT SURVIVORS: 3 out of 75 (rejected: 72) ---- 
+   1) gen: 1 fam: 1 SCORE: 189.77/f238 atoms: 65 MW: 594.02 label: U64
+   2) gen: 1 fam: 1 SCORE: 189.62/f349 atoms: 68 MW: 621.04 label: U46
+   3) gen: 1 fam: 1 SCORE: 187.15/f247 atoms: 65 MW: 594.02 label: U60
+
+ Generation: 1 Save List entries: 10  -PLP1: 181.5 -> 189.8
+
+
+
+	GENERATION: 2 FAMILY 1 Scaffold:  U64  
+	fragments found: 44 
+	GENERATION: 2 FAMILY 2 Scaffold:  U46  
+	fragments found: 41 
+	GENERATION: 2 FAMILY 3 Scaffold:  U60  
+	fragments found: 53 
+
+ Molecules created: 112 (duplicates removed: 26)
+
+   1) gen: 2 fam: 1 SCORE: 212.03/f353 atoms: 76 MW: 673.12 label: U64 U86
+   2) gen: 2 fam: 1 SCORE: 211.93/f294 atoms: 78 MW: 688.13 label: U64 U84
+   3) gen: 2 fam: 2 SCORE: 211.88/f353 atoms: 79 MW: 700.14 label: U46 U86
+   4) gen: 2 fam: 2 SCORE: 211.77/f294 atoms: 81 MW: 715.16 label: U46 U84
+   5) gen: 2 fam: 2 SCORE: 210.84/f292 atoms: 85 MW: 728.20 label: U46 UD9
+   6) gen: 2 fam: 1 SCORE: 210.55/f296 atoms: 82 MW: 723.18 label: U64 U65
+   7) gen: 2 fam: 2 SCORE: 210.40/f296 atoms: 85 MW: 750.20 label: U46 U65
+   8) gen: 2 fam: 1 SCORE: 209.70/f209 atoms: 80 MW: 712.16 label: U64 UF5
+   9) gen: 2 fam: 3 SCORE: 209.40/f353 atoms: 76 MW: 673.12 label: U60 U86
+  10) gen: 2 fam: 1 SCORE: 208.21/f253 atoms: 82 MW: 701.17 label: U64 UE1
+  11) gen: 2 fam: 2 SCORE: 208.06/f253 atoms: 85 MW: 728.20 label: U46 UE1
+  12) gen: 2 fam: 3 SCORE: 206.33/f187 atoms: 82 MW: 701.17 label: U60 UE0
+  13) gen: 2 fam: 1 SCORE: 206.09/f306 atoms: 82 MW: 701.17 label: U64 UE0
+  14) gen: 2 fam: 1 SCORE: 206.06/f338 atoms: 73 MW: 654.07 label: U64 UC6
+  15) gen: 2 fam: 2 SCORE: 205.93/f306 atoms: 85 MW: 728.20 label: U46 UE0
+  16) gen: 2 fam: 2 SCORE: 205.91/f338 atoms: 76 MW: 681.09 label: U46 UC6
+  17) gen: 2 fam: 1 SCORE: 204.62/f296 atoms: 85 MW: 693.19 label: U64 U56
+  18) gen: 2 fam: 2 SCORE: 204.46/f296 atoms: 88 MW: 720.22 label: U46 U56
+  19) gen: 2 fam: 2 SCORE: 204.32/f238 atoms: 84 MW: 725.19 label: U46 T12
+  20) gen: 2 fam: 1 SCORE: 203.90/f345 atoms: 72 MW: 660.08 label: U64 C46
+  21) gen: 2 fam: 1 SCORE: 203.84/f150 atoms: 73 MW: 659.09 label: U64 U13
+  22) gen: 2 fam: 2 SCORE: 203.75/f345 atoms: 75 MW: 687.10 label: U46 C46
+  23) gen: 2 fam: 2 SCORE: 203.68/f150 atoms: 76 MW: 686.12 label: U46 U13
+  24) gen: 2 fam: 3 SCORE: 203.55/f331 atoms: 80 MW: 701.15 label: U60 U96
+  25) gen: 2 fam: 3 SCORE: 203.43/f338 atoms: 73 MW: 654.07 label: U60 UC6
+  26) gen: 2 fam: 1 SCORE: 203.11/f255 atoms: 79 MW: 665.14 label: U64 U54
+  27) gen: 2 fam: 2 SCORE: 202.96/f255 atoms: 82 MW: 692.16 label: U46 U54
+  28) gen: 2 fam: 1 SCORE: 202.68/f283 atoms: 82 MW: 679.17 label: U64 U55
+  29) gen: 2 fam: 3 SCORE: 202.68/f279 atoms: 78 MW: 688.13 label: U60 UC4
+  30) gen: 2 fam: 2 SCORE: 202.53/f283 atoms: 85 MW: 706.19 label: U46 U55
+  31) gen: 2 fam: 3 SCORE: 202.11/f152 atoms: 80 MW: 712.16 label: U60 UF5
+  32) gen: 2 fam: 3 SCORE: 202.03/f240 atoms: 76 MW: 673.12 label: U60 U88
+  33) gen: 2 fam: 3 SCORE: 201.27/f345 atoms: 72 MW: 660.08 label: U60 C46
+  34) gen: 2 fam: 3 SCORE: 201.21/f150 atoms: 73 MW: 659.09 label: U60 U13
+  35) gen: 2 fam: 1 SCORE: 200.54/f316 atoms: 72 MW: 634.08 label: U64 C31
+  36) gen: 2 fam: 3 SCORE: 200.48/f255 atoms: 79 MW: 665.14 label: U60 U54
+  37) gen: 2 fam: 2 SCORE: 200.39/f316 atoms: 75 MW: 661.11 label: U46 C31
+  38) gen: 2 fam: 1 SCORE: 200.16/f414 atoms: 72 MW: 660.08 label: U64 C44
+  39) gen: 2 fam: 2 SCORE: 200.01/f414 atoms: 75 MW: 687.10 label: U46 C44
+  40) gen: 2 fam: 3 SCORE: 199.95/f274 atoms: 76 MW: 673.12 label: U60 U87
+  41) gen: 2 fam: 1 SCORE: 199.55/f423 atoms: 82 MW: 701.17 label: U64 UD9
+  42) gen: 2 fam: 1 SCORE: 199.33/f319 atoms: 74 MW: 638.09 label: U64 UE7
+  43) gen: 2 fam: 1 SCORE: 198.53/f400 atoms: 73 MW: 637.09 label: U64 U17
+  44) gen: 2 fam: 2 SCORE: 198.38/f400 atoms: 76 MW: 664.11 label: U46 U17
+  45) gen: 2 fam: 1 SCORE: 198.32/f356 atoms: 75 MW: 665.10 label: U64 U74
+  46) gen: 2 fam: 3 SCORE: 197.91/f316 atoms: 72 MW: 634.08 label: U60 C31
+  47) gen: 2 fam: 2 SCORE: 197.89/f191 atoms: 80 MW: 677.15 label: U46 T02
+  48) gen: 2 fam: 3 SCORE: 197.53/f414 atoms: 72 MW: 660.08 label: U60 C44
+  49) gen: 2 fam: 1 SCORE: 197.39/f424 atoms: 75 MW: 665.10 label: U64 U23
+  50) gen: 2 fam: 1 SCORE: 197.29/f325 atoms: 71 MW: 624.07 label: U64 UE6
+  51) gen: 2 fam: 2 SCORE: 197.24/f424 atoms: 78 MW: 692.12 label: U46 U23
+  52) gen: 2 fam: 1 SCORE: 197.16/f341 atoms: 66 MW: 610.02 label: U64 U04
+  53) gen: 2 fam: 2 SCORE: 197.14/f325 atoms: 74 MW: 651.09 label: U46 UE6
+  54) gen: 2 fam: 2 SCORE: 197.01/f341 atoms: 69 MW: 637.04 label: U46 U04
+  55) gen: 2 fam: 1 SCORE: 196.97/f327 atoms: 75 MW: 652.10 label: U64 UA6
+  56) gen: 2 fam: 3 SCORE: 196.92/f423 atoms: 82 MW: 701.17 label: U60 UD9
+  57) gen: 2 fam: 2 SCORE: 196.82/f327 atoms: 78 MW: 679.12 label: U46 UA6
+  58) gen: 2 fam: 1 SCORE: 196.72/f312 atoms: 69 MW: 624.04 label: U64 U05
+  59) gen: 2 fam: 1 SCORE: 195.93/f229 atoms: 78 MW: 679.13 label: U64 U28
+  60) gen: 2 fam: 3 SCORE: 195.90/f400 atoms: 73 MW: 637.09 label: U60 U17
+  61) gen: 2 fam: 2 SCORE: 195.77/f229 atoms: 81 MW: 706.15 label: U46 U28
+  62) gen: 2 fam: 1 SCORE: 195.74/f221 atoms: 68 MW: 610.04 label: U64 UE5
+  63) gen: 2 fam: 2 SCORE: 195.58/f221 atoms: 71 MW: 637.06 label: U46 UE5
+  64) gen: 2 fam: 1 SCORE: 195.42/f297 atoms: 70 MW: 623.06 label: U64 U19
+  65) gen: 2 fam: 1 SCORE: 195.36/f323 atoms: 73 MW: 637.09 label: U64 U52
+  66) gen: 2 fam: 2 SCORE: 195.35/f264 atoms: 78 MW: 675.13 label: U46 C02
+  67) gen: 2 fam: 2 SCORE: 195.26/f297 atoms: 73 MW: 650.08 label: U46 U19
+  68) gen: 2 fam: 2 SCORE: 195.21/f323 atoms: 76 MW: 664.11 label: U46 U52
+  69) gen: 2 fam: 1 SCORE: 195.11/f261 atoms: 67 MW: 609.03 label: U64 U20
+  70) gen: 2 fam: 2 SCORE: 194.96/f261 atoms: 70 MW: 636.06 label: U46 U20
+  71) gen: 2 fam: 3 SCORE: 194.77/f424 atoms: 75 MW: 665.10 label: U60 U23
+  72) gen: 2 fam: 2 SCORE: 194.61/f359 atoms: 72 MW: 651.07 label: U46 U05
+  73) gen: 2 fam: 3 SCORE: 194.54/f341 atoms: 66 MW: 610.02 label: U60 U04
+  74) gen: 2 fam: 3 SCORE: 194.35/f327 atoms: 75 MW: 652.10 label: U60 UA6
+  75) gen: 2 fam: 3 SCORE: 194.09/f312 atoms: 69 MW: 624.04 label: U60 U05
+  76) gen: 2 fam: 2 SCORE: 193.70/f373 atoms: 73 MW: 663.08 label: U46 C72
+  77) gen: 2 fam: 3 SCORE: 193.66/f347 atoms: 79 MW: 700.14 label: U60 U89
+  78) gen: 2 fam: 3 SCORE: 193.53/f275 atoms: 71 MW: 644.08 label: U60 C01
+  79) gen: 2 fam: 1 SCORE: 193.42/f387 atoms: 70 MW: 636.06 label: U64 C72
+  80) gen: 2 fam: 1 SCORE: 193.35/f291 atoms: 69 MW: 620.06 label: U64 C24
+  81) gen: 2 fam: 3 SCORE: 193.30/f229 atoms: 78 MW: 679.13 label: U60 U28
+  82) gen: 2 fam: 3 SCORE: 192.79/f297 atoms: 70 MW: 623.06 label: U60 U19
+  83) gen: 2 fam: 3 SCORE: 192.74/f323 atoms: 73 MW: 637.09 label: U60 U52
+  84) gen: 2 fam: 1 SCORE: 192.72/f274 atoms: 70 MW: 623.06 label: U64 U01
+  85) gen: 2 fam: 1 SCORE: 192.69/f310 atoms: 67 MW: 618.04 label: U64 C21
+  86) gen: 2 fam: 3 SCORE: 192.63/f283 atoms: 75 MW: 648.11 label: U60 C02
+  87) gen: 2 fam: 2 SCORE: 192.54/f310 atoms: 70 MW: 645.06 label: U46 C21
+  88) gen: 2 fam: 3 SCORE: 192.49/f261 atoms: 67 MW: 609.03 label: U60 U20
+  89) gen: 2 fam: 1 SCORE: 192.44/f332 atoms: 75 MW: 674.11 label: U64 U83
+  90) gen: 2 fam: 3 SCORE: 191.92/f214 atoms: 82 MW: 679.17 label: U60 U55
+  91) gen: 2 fam: 1 SCORE: 191.60/f306 atoms: 76 MW: 651.11 label: U64 U15
+  92) gen: 2 fam: 2 SCORE: 191.44/f306 atoms: 79 MW: 678.14 label: U46 U15
+  93) gen: 2 fam: 3 SCORE: 191.22/f287 atoms: 72 MW: 634.08 label: U60 C30
+  94) gen: 2 fam: 1 SCORE: 191.02/f256 atoms: 73 MW: 637.09 label: U64 U02
+  95) gen: 2 fam: 3 SCORE: 190.90/f313 atoms: 82 MW: 714.17 label: U60 UG2
+  96) gen: 2 fam: 3 SCORE: 190.73/f291 atoms: 69 MW: 620.06 label: U60 C24
+  97) gen: 2 fam: 3 SCORE: 190.35/f 81 atoms: 82 MW: 679.17 label: U60 U51
+  98) gen: 2 fam: 3 SCORE: 190.22/f228 atoms: 68 MW: 630.05 label: U60 C88
+  99) gen: 2 fam: 3 SCORE: 190.06/f310 atoms: 67 MW: 618.04 label: U60 C21
+ 100) gen: 2 fam: 3 SCORE: 189.30/f346 atoms: 70 MW: 636.06 label: U60 C72
+ 101) gen: 2 fam: 1 SCORE: 189.27/f269 atoms: 84 MW: 694.18 label: U64 U44
+ 102) gen: 2 fam: 2 SCORE: 189.12/f269 atoms: 87 MW: 721.20 label: U46 U44
+ 103) gen: 2 fam: 3 SCORE: 188.97/f306 atoms: 76 MW: 651.11 label: U60 U15
+ 104) gen: 2 fam: 3 SCORE: 188.81/f296 atoms: 75 MW: 674.11 label: U60 U83
+ 105) gen: 2 fam: 1 SCORE: 188.24/f150 atoms: 77 MW: 687.13 label: U64 U94
+ 106) gen: 2 fam: 3 SCORE: 186.93/f249 atoms: 68 MW: 610.04 label: U60 UE5
+ 107) gen: 2 fam: 3 SCORE: 186.78/f289 atoms: 79 MW: 665.14 label: U60 U03
+ 108) gen: 2 fam: 3 SCORE: 186.65/f269 atoms: 84 MW: 694.18 label: U60 U44
+ 109) gen: 2 fam: 3 SCORE: 184.85/f303 atoms: 83 MW: 713.18 label: U60 UE9
+ 110) gen: 2 fam: 3 SCORE: 183.01/f301 atoms: 68 MW: 621.04 label: U60 CA9
+ 111) gen: 2 fam: 2 SCORE: 180.76/f352 atoms: 72 MW: 647.08 label: U46 C28
+ 112) gen: 2 fam: 3 SCORE: 177.94/f 91 atoms: 74 MW: 653.09 label: U60 UG7
+
+
+		 ---- SELECT SURVIVORS: 3 out of 112 (rejected: 109) ---- 
+   1) gen: 2 fam: 1 SCORE: 212.03/f353 atoms: 76 MW: 673.12 label: U64 U86
+   2) gen: 2 fam: 1 SCORE: 211.93/f294 atoms: 78 MW: 688.13 label: U64 U84
+   3) gen: 2 fam: 2 SCORE: 211.88/f353 atoms: 79 MW: 700.14 label: U46 U86
+
+ Generation: 2 Save List entries: 10  -PLP1: 208.2 -> 212.0
+
+
+	 The top 10 scoring Molecules: 
+   1) gen: 2 fam: 1 SCORE: 212.03/f353 atoms: 76 MW: 673.12 label: U64 U86
+   2) gen: 2 fam: 1 SCORE: 211.93/f294 atoms: 78 MW: 688.13 label: U64 U84
+   3) gen: 2 fam: 2 SCORE: 211.88/f353 atoms: 79 MW: 700.14 label: U46 U86
+   4) gen: 2 fam: 2 SCORE: 211.77/f294 atoms: 81 MW: 715.16 label: U46 U84
+   5) gen: 2 fam: 2 SCORE: 210.84/f292 atoms: 85 MW: 728.20 label: U46 UD9
+   6) gen: 2 fam: 1 SCORE: 210.55/f296 atoms: 82 MW: 723.18 label: U64 U65
+   7) gen: 2 fam: 2 SCORE: 210.40/f296 atoms: 85 MW: 750.20 label: U46 U65
+   8) gen: 2 fam: 1 SCORE: 209.70/f209 atoms: 80 MW: 712.16 label: U64 UF5
+   9) gen: 2 fam: 3 SCORE: 209.40/f353 atoms: 76 MW: 673.12 label: U60 U86
+  10) gen: 2 fam: 1 SCORE: 208.21/f253 atoms: 82 MW: 701.17 label: U64 UE1
+
+ Ran 2 generations and created 227 new molecules (excluded fragments: 181)
+
+ Total number of duplicates removed: 40
+
+
+	Results File (entries: 10): denovo_results.sd
+
+
+	CPU time: 10:44 [min:s]
+
+Released license for: DS_DeNovoEvolution
