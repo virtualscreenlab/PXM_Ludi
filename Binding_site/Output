@@ -1,1 +1,17 @@
-
+PyMOL>run align.py
+ 
+=== ITERATIVE ===
+    B ASP  146    3.27 A
+    B PHE  147    4.35 A
+    B GLY  145    4.59 A
+    B GLY  18    6.77 A
+    B LYS  35    7.13 A
+saved -> C:/Users/PC1/Downloads/8c7y_corrected_aligned.pdb
+ 
+=== NON-ITERATIVE ===
+    B ASP  146    3.22 A
+    B PHE  147    4.29 A
+    B GLY  145    4.59 A
+    B GLY  18    6.72 A
+    B LYS  35    7.15 A
+DONE.
