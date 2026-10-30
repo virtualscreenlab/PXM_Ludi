@@ -1,1 +1,7 @@
-
+export LD_LIBRARY_PATH=$CONDA_PREFIX/lib:$LD_LIBRARY_PATH
+time python scripts/sample_use.py \
+    --config_task configs/sample/examples/sbdd_simple_8c7y.yml \
+    --outdir outputs_sbdd_8C7Y \
+    --device cpu \
+    --batch_size 10 \
+    --num_workers 4
