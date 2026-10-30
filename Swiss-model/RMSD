@@ -1,3 +1,4 @@
+align protein, 8C7Y_TXV_protein
 MatchAlign: score 2776.000
  ExecutiveAlign: 4261 atoms aligned.
  ExecutiveRMS: 200 atoms rejected during cycle 1 (RMSD=1.40).
@@ -5,4 +6,12 @@ MatchAlign: score 2776.000
  ExecutiveRMS: 122 atoms rejected during cycle 3 (RMSD=1.02).
  ExecutiveRMS: 55 atoms rejected during cycle 4 (RMSD=0.96).
  ExecutiveRMS: 22 atoms rejected during cycle 5 (RMSD=0.94).
- Executive: RMSD =    0.928 (3677 to 3677 atoms)
+ Executive: RMSD =    0.928 (3677 to 3677 atoms
+
+align protein, 8C7Y_TXV_protein, cycles=0, cutoff=100.0
+atch: read scoring matrix.
+ Match: assigning 549 x 554 pairwise scores.
+ MatchAlign: aligning residues (549 vs 554)...
+ MatchAlign: score 2776.000
+ ExecutiveAlign: 4261 atoms aligned.
+ Executive: RMSD =    1.403 (4261 to 4261 atoms)
