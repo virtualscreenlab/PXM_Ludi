@@ -1,17 +1,82 @@
 PyMOL>run align.py
  
-=== ITERATIVE ===
-    B ASP  146    3.27 A
-    B PHE  147    4.35 A
-    B GLY  145    4.59 A
-    B GLY  18    6.77 A
-    B LYS  35    7.13 A
+=== ITERATIVE : top-5 CAs to pocket point ===
+  chain  resn  resi   dist(A)
+    B  ASP   146     3.27
+    B  PHE   147     4.35
+    B  GLY   145     4.59
+    B  GLY   18     6.77
+    B  LYS   35     7.13
+ 
 saved -> C:/Users/PC1/Downloads/8c7y_corrected_aligned.pdb
  
-=== NON-ITERATIVE ===
-    B ASP  146    3.22 A
-    B PHE  147    4.29 A
-    B GLY  145    4.59 A
-    B GLY  18    6.72 A
-    B LYS  35    7.15 A
+=== CA shift: crystal vs mdl (same residue after alignment) ===
+  resn   crystal#   mdl#    |dCA| (A)
+  ASP       594       146      1.65
+  PHE       595       147      1.54
+  GLY       593       145      0.61
+  GLY       466        18      1.43
+  LYS       483        35      0.55
+ 
+  pocket CA RMSD (crystal vs mdl) = 1.25 A  (n=5)
+ 
+=== NON-ITERATIVE : top-5 CAs to pocket point ===
+  chain  resn  resi   dist(A)
+    B  ASP   146     3.22
+    B  PHE   147     4.29
+    B  GLY   145     4.59
+    B  GLY   18     6.72
+    B  LYS   35     7.15
+ 
+=== CA shift: crystal vs mdl (same residue after alignment) ===
+  resn   crystal#   mdl#    |dCA| (A)
+  ASP       594       146      1.66
+  PHE       595       147      1.53
+  GLY       593       145      0.59
+  GLY       466        18      1.39
+  LYS       483        35      0.53
+ 
+  pocket CA RMSD (crystal vs mdl) = 1.24 A  (n=5)
+ 
+DONE.
+PyMOL>run align.py
+ 
+=== ITERATIVE : top-5 CAs to pocket point ===
+  chain  resn  resi   dist(A)
+    B  ASP   146     3.27
+    B  PHE   147     4.35
+    B  GLY   145     4.59
+    B  GLY   18     6.77
+    B  LYS   35     7.13
+ 
+saved -> C:/Users/PC1/Downloads/8c7y_corrected_aligned.pdb
+ 
+=== CA shift: crystal vs mdl (same residue after alignment) ===
+  resn   crystal#   mdl#    |dCA| (A)
+  ASP       594       146      1.65
+  PHE       595       147      1.54
+  GLY       593       145      0.61
+  GLY       466        18      1.43
+  LYS       483        35      0.55
+ 
+  pocket CA RMSD (crystal vs mdl) = 1.25 A  (n=5)
+ 
+=== NON-ITERATIVE : top-5 CAs to pocket point ===
+  chain  resn  resi   dist(A)
+    B  ASP   146     3.22
+    B  PHE   147     4.29
+    B  GLY   145     4.59
+    B  GLY   18     6.72
+    B  LYS   35     7.15
+ 
+=== CA shift: crystal vs mdl (same residue after alignment) ===
+  resn   crystal#   mdl#    |dCA| (A)
+  ASP       594       146      1.66
+  PHE       595       147      1.53
+  GLY       593       145      0.59
+  GLY       466        18      1.39
+  LYS       483        35      0.53
+ 
+  pocket CA RMSD (crystal vs mdl) = 1.24 A  (n=5)
+ 
 DONE.
