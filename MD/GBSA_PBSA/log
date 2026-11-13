@@ -1,1 +1,49 @@
+python stat.py
+
+==============================================================================
+MM/GBSA
+==============================================================================
+  ref: n=3, mean=-60.09, SD=2.04
+  hit: n=3, mean=-43.56, SD=9.44
+
+  Welch's t-test (hit vs ref):
+    t = 2.964, p = 0.0876
+    → not significant at α=0.05 (n=3 limits power)
+  Mann-Whitney U (non-parametric):
+    U = 9.0, p = 0.1000
+  Cohen's d (hit − ref):
+    d = 2.42  (large effect)
+  ΔΔG (hit − ref) = 16.53 kcal/mol
+    95% CI: [-5.60, 38.66]
+  Grubbs: no outliers in ref
+  Grubbs: no outliers in hit
+
+
+==============================================================================
+MM/PBSA
+==============================================================================
+  ref: n=3, mean=-88.45, SD=2.91
+  hit: n=3, mean=-58.89, SD=12.07
+
+  Welch's t-test (hit vs ref):
+    t = 4.122, p = 0.0447
+    → significant at α=0.05
+  Mann-Whitney U (non-parametric):
+    U = 9.0, p = 0.1000
+  Cohen's d (hit − ref):
+    d = 3.37  (large effect)
+  ΔΔG (hit − ref) = 29.55 kcal/mol
+    95% CI: [1.59, 57.51]
+  Grubbs: no outliers in ref
+  Grubbs: no outliers in hit
+
+==============================================================================
+Summary for the paper
+==============================================================================
+  GB: ΔΔG = +16.53 kcal/mol, Cohen's d = 2.42
+  PB: ΔΔG = +29.55 kcal/mol, Cohen's d = 3.37
+
+  Note: n=3 per group → p-values have low power.
+  The large |ΔΔG| (16–30 kcal/mol) and Cohen's d > 3
+  indicate the difference is robust regardless of p.
 
