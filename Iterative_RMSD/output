@@ -1,1 +1,299 @@
+PyMOL(TM) 2.4.1 - Incentive Product
+ Copyright (C) Schrodinger, LLC
+ 
+ This Executable Build integrates and extends Open-Source PyMOL.
+menu 'MyPlugin' exists
+Unable to initialize plugin 'CASTpyMOL_v3' (pmg_tk.startup.CASTpyMOL_v3).
+ Detected OpenGL version 4.6. Shaders available.
+ Detected GLSL version 4.60.
+ OpenGL graphics engine:
+  GL_VENDOR:   NVIDIA Corporation
+  GL_RENDERER: NVIDIA GeForce RTX 2060/PCIe/SSE2
+  GL_VERSION:  4.6.0 NVIDIA 560.94
+No License File - For Evaluation Only (0 days remaining)
+ Detected 12 CPU cores.  Enabled multithreaded rendering.
+ Executive: Loading version 2.004000 session...
+ Session was saved with: viewport 640, 515
+PyMOL>align Evo_1, Evo, cycles=0
+ Match: read scoring matrix.
+ Match: assigning 1 x 1 pairwise scores.
+ MatchAlign: aligning residues (1 vs 1)...
+ MatchAlign: score 5.000
+ ExecutiveAlign: 34 atoms aligned.
+ Executive: RMSD =    0.000 (34 to 34 atoms)
+PyMOL>align Evo_2, Evo, cycles=0
+ Match: read scoring matrix.
+ Match: assigning 1 x 1 pairwise scores.
+ MatchAlign: aligning residues (1 vs 1)...
+ MatchAlign: score 5.000
+ ExecutiveAlign: 34 atoms aligned.
+ Executive: RMSD =    0.000 (34 to 34 atoms)
+PyMOL>align Evo_2, Evo
+ Match: read scoring matrix.
+ Match: assigning 1 x 1 pairwise scores.
+ MatchAlign: aligning residues (1 vs 1)...
+ MatchAlign: score 5.000
+ ExecutiveAlign: 34 atoms aligned.
+ Executive: RMSD =    0.000 (34 to 34 atoms)
+PyMOL>align Evo_2, Evo
+ Match: read scoring matrix.
+ Match: assigning 1 x 1 pairwise scores.
+ MatchAlign: aligning residues (1 vs 1)...
+ MatchAlign: score 5.000
+ ExecutiveAlign: 34 atoms aligned.
+ Executive: RMSD =    0.000 (34 to 34 atoms)
+PyMOL>align Evo, Evo_1
+ Match: read scoring matrix.
+ Match: assigning 1 x 1 pairwise scores.
+ MatchAlign: aligning residues (1 vs 1)...
+ MatchAlign: score 5.000
+ ExecutiveAlign: 34 atoms aligned.
+ Executive: RMSD =    0.000 (34 to 34 atoms)
+PyMOL>align Evo, Evo_3
+ Match: read scoring matrix.
+ Match: assigning 1 x 1 pairwise scores.
+ MatchAlign: aligning residues (1 vs 1)...
+ MatchAlign: score 5.000
+ ExecutiveAlign: 34 atoms aligned.
+ Executive: RMSD =    0.000 (34 to 34 atoms)
+PyMOL>align Evo_1, Evo_3
+ Match: read scoring matrix.
+ Match: assigning 1 x 1 pairwise scores.
+ MatchAlign: aligning residues (1 vs 1)...
+ MatchAlign: score 5.000
+ ExecutiveAlign: 43 atoms aligned.
+ ExecutiveRMS: 4 atoms rejected during cycle 1 (RMSD=1.15).
+ ExecutiveRMS: 4 atoms rejected during cycle 2 (RMSD=0.54).
+ ExecutiveRMS: 1 atoms rejected during cycle 3 (RMSD=0.06).
+ Executive: RMSD =    0.000 (34 to 34 atoms)
+PyMOL>align Evo_1, Evo
+ Match: read scoring matrix.
+ Match: assigning 1 x 1 pairwise scores.
+ MatchAlign: aligning residues (1 vs 1)...
+ MatchAlign: score 5.000
+ ExecutiveAlign: 34 atoms aligned.
+ Executive: RMSD =    0.000 (34 to 34 atoms)
+PyMOL>align Evo_1, Evo
+ Match: read scoring matrix.
+ Match: assigning 1 x 1 pairwise scores.
+ MatchAlign: aligning residues (1 vs 1)...
+ MatchAlign: score 5.000
+ ExecutiveAlign: 51 atoms aligned.
+ ExecutiveRMS: 5 atoms rejected during cycle 1 (RMSD=5.11).
+ ExecutiveRMS: 3 atoms rejected during cycle 2 (RMSD=1.85).
+ ExecutiveRMS: 3 atoms rejected during cycle 3 (RMSD=0.53).
+ ExecutiveRMS: 1 atoms rejected during cycle 4 (RMSD=0.05).
+ ExecutiveRMS: 1 atoms rejected during cycle 5 (RMSD=0.00).
+ Executive: RMSD =    0.001 (38 to 38 atoms)
+PyMOL>align Evo_1, Evo, cycles=o
+Traceback (most recent call last):
+  File "C:\Users\PC1\AppData\Local\Schrodinger\PyMOL2\lib\site-packages\pymol\fitting.py", line 388, in align
+    float(cutoff),int(cycles),float(gap),
+ValueError: invalid literal for int() with base 10: 'o'
+PyMOL>align Evo_1, Evo
+ Match: read scoring matrix.
+ Match: assigning 1 x 1 pairwise scores.
+ MatchAlign: aligning residues (1 vs 1)...
+ MatchAlign: score 5.000
+ ExecutiveAlign: 51 atoms aligned.
+ ExecutiveRMS: 5 atoms rejected during cycle 1 (RMSD=5.11).
+ ExecutiveRMS: 3 atoms rejected during cycle 2 (RMSD=1.85).
+ ExecutiveRMS: 3 atoms rejected during cycle 3 (RMSD=0.53).
+ ExecutiveRMS: 1 atoms rejected during cycle 4 (RMSD=0.05).
+ ExecutiveRMS: 1 atoms rejected during cycle 5 (RMSD=0.00).
+ Executive: RMSD =    0.001 (38 to 38 atoms)
+PyMOL>align Evo_2, Evo
+ Match: read scoring matrix.
+ Match: assigning 1 x 1 pairwise scores.
+ MatchAlign: aligning residues (1 vs 1)...
+ MatchAlign: score 5.000
+ ExecutiveAlign: 51 atoms aligned.
+ ExecutiveRMS: 5 atoms rejected during cycle 1 (RMSD=5.16).
+ ExecutiveRMS: 3 atoms rejected during cycle 2 (RMSD=1.98).
+ ExecutiveRMS: 4 atoms rejected during cycle 3 (RMSD=0.61).
+ ExecutiveRMS: 1 atoms rejected during cycle 4 (RMSD=0.00).
+ Executive: RMSD =    0.001 (38 to 38 atoms)
+PyMOL>align Evo_3, Evo
+ Match: read scoring matrix.
+ Match: assigning 1 x 1 pairwise scores.
+ MatchAlign: aligning residues (1 vs 1)...
+ MatchAlign: score 5.000
+ ExecutiveAlign: 51 atoms aligned.
+ ExecutiveRMS: 5 atoms rejected during cycle 1 (RMSD=5.11).
+ ExecutiveRMS: 3 atoms rejected during cycle 2 (RMSD=1.85).
+ ExecutiveRMS: 3 atoms rejected during cycle 3 (RMSD=0.53).
+ ExecutiveRMS: 1 atoms rejected during cycle 4 (RMSD=0.05).
+ ExecutiveRMS: 1 atoms rejected during cycle 5 (RMSD=0.00).
+ Executive: RMSD =    0.001 (38 to 38 atoms)
+PyMOL>align Evo_4, Evo
+ Match: read scoring matrix.
+ Match: assigning 1 x 1 pairwise scores.
+ MatchAlign: aligning residues (1 vs 1)...
+ MatchAlign: score 5.000
+ ExecutiveAlign: 51 atoms aligned.
+ ExecutiveRMS: 5 atoms rejected during cycle 1 (RMSD=5.15).
+ ExecutiveRMS: 3 atoms rejected during cycle 2 (RMSD=1.98).
+ ExecutiveRMS: 4 atoms rejected during cycle 3 (RMSD=0.61).
+ ExecutiveRMS: 1 atoms rejected during cycle 4 (RMSD=0.00).
+ Executive: RMSD =    0.001 (38 to 38 atoms)
+PyMOL>align Evo_5, Evo
+ Match: read scoring matrix.
+ Match: assigning 1 x 1 pairwise scores.
+ MatchAlign: aligning residues (1 vs 1)...
+ MatchAlign: score 5.000
+ ExecutiveAlign: 51 atoms aligned.
+ ExecutiveRMS: 5 atoms rejected during cycle 1 (RMSD=5.11).
+ ExecutiveRMS: 3 atoms rejected during cycle 2 (RMSD=1.87).
+ ExecutiveRMS: 3 atoms rejected during cycle 3 (RMSD=0.54).
+ ExecutiveRMS: 1 atoms rejected during cycle 4 (RMSD=0.09).
+ ExecutiveRMS: 1 atoms rejected during cycle 5 (RMSD=0.00).
+ Executive: RMSD =    0.001 (38 to 38 atoms)
+PyMOL>align Evo_6, Evo
+ Match: read scoring matrix.
+ Match: assigning 1 x 1 pairwise scores.
+ MatchAlign: aligning residues (1 vs 1)...
+ MatchAlign: score 5.000
+ ExecutiveAlign: 51 atoms aligned.
+ ExecutiveRMS: 5 atoms rejected during cycle 1 (RMSD=5.16).
+ ExecutiveRMS: 3 atoms rejected during cycle 2 (RMSD=1.98).
+ ExecutiveRMS: 4 atoms rejected during cycle 3 (RMSD=0.61).
+ ExecutiveRMS: 1 atoms rejected during cycle 4 (RMSD=0.00).
+ Executive: RMSD =    0.001 (38 to 38 atoms)
+PyMOL>align Evo_6, Evo, cycles=0
+ Match: read scoring matrix.
+ Match: assigning 1 x 1 pairwise scores.
+ MatchAlign: aligning residues (1 vs 1)...
+ MatchAlign: score 5.000
+ ExecutiveAlign: 51 atoms aligned.
+ Executive: RMSD =    5.161 (51 to 51 atoms)
+PyMOL>align Evo_1, Evo, cycles=0
+ Match: read scoring matrix.
+ Match: assigning 1 x 1 pairwise scores.
+ MatchAlign: aligning residues (1 vs 1)...
+ MatchAlign: score 5.000
+ ExecutiveAlign: 51 atoms aligned.
+ Executive: RMSD =    5.112 (51 to 51 atoms)
+PyMOL>align Evo_1, Evo, cycles=0
+ Match: read scoring matrix.
+ Match: assigning 1 x 1 pairwise scores.
+ MatchAlign: aligning residues (1 vs 1)...
+ MatchAlign: score 5.000
+ ExecutiveAlign: 51 atoms aligned.
+ Executive: RMSD =    5.112 (51 to 51 atoms)
+PyMOL>align Evo_1, Evo, cycles=0
+PyMOL>align Evo_1, Evo
+ Match: read scoring matrix.
+ Match: assigning 1 x 1 pairwise scores.
+ MatchAlign: aligning residues (1 vs 1)...
+ MatchAlign: score 5.000
+ ExecutiveAlign: 51 atoms aligned.
+ ExecutiveRMS: 5 atoms rejected during cycle 1 (RMSD=5.11).
+ ExecutiveRMS: 3 atoms rejected during cycle 2 (RMSD=1.85).
+ ExecutiveRMS: 3 atoms rejected during cycle 3 (RMSD=0.53).
+ ExecutiveRMS: 1 atoms rejected during cycle 4 (RMSD=0.05).
+ ExecutiveRMS: 1 atoms rejected during cycle 5 (RMSD=0.00).
+ Executive: RMSD =    0.001 (38 to 38 atoms)
+PyMOL>align Evo_2, Evo
+ Match: read scoring matrix.
+ Match: assigning 1 x 1 pairwise scores.
+ MatchAlign: aligning residues (1 vs 1)...
+ MatchAlign: score 5.000
+ ExecutiveAlign: 51 atoms aligned.
+ ExecutiveRMS: 5 atoms rejected during cycle 1 (RMSD=5.16).
+ ExecutiveRMS: 3 atoms rejected during cycle 2 (RMSD=1.98).
+ ExecutiveRMS: 4 atoms rejected during cycle 3 (RMSD=0.61).
+ ExecutiveRMS: 1 atoms rejected during cycle 4 (RMSD=0.00).
+ Executive: RMSD =    0.001 (38 to 38 atoms)
+PyMOL>align Evo_3, Evo
+ Match: read scoring matrix.
+ Match: assigning 1 x 1 pairwise scores.
+ MatchAlign: aligning residues (1 vs 1)...
+ MatchAlign: score 5.000
+ ExecutiveAlign: 51 atoms aligned.
+ ExecutiveRMS: 5 atoms rejected during cycle 1 (RMSD=5.11).
+ ExecutiveRMS: 3 atoms rejected during cycle 2 (RMSD=1.85).
+ ExecutiveRMS: 3 atoms rejected during cycle 3 (RMSD=0.53).
+ ExecutiveRMS: 1 atoms rejected during cycle 4 (RMSD=0.05).
+ ExecutiveRMS: 1 atoms rejected during cycle 5 (RMSD=0.00).
+ Executive: RMSD =    0.001 (38 to 38 atoms)
+PyMOL>align Evo_4, Evo
+ Match: read scoring matrix.
+ Match: assigning 1 x 1 pairwise scores.
+ MatchAlign: aligning residues (1 vs 1)...
+ MatchAlign: score 5.000
+ ExecutiveAlign: 51 atoms aligned.
+ ExecutiveRMS: 5 atoms rejected during cycle 1 (RMSD=5.15).
+ ExecutiveRMS: 3 atoms rejected during cycle 2 (RMSD=1.98).
+ ExecutiveRMS: 4 atoms rejected during cycle 3 (RMSD=0.61).
+ ExecutiveRMS: 1 atoms rejected during cycle 4 (RMSD=0.00).
+ Executive: RMSD =    0.001 (38 to 38 atoms)
+PyMOL>align Evo_5, Evo
+ Match: read scoring matrix.
+ Match: assigning 1 x 1 pairwise scores.
+ MatchAlign: aligning residues (1 vs 1)...
+ MatchAlign: score 5.000
+ ExecutiveAlign: 51 atoms aligned.
+ ExecutiveRMS: 5 atoms rejected during cycle 1 (RMSD=5.11).
+ ExecutiveRMS: 3 atoms rejected during cycle 2 (RMSD=1.87).
+ ExecutiveRMS: 3 atoms rejected during cycle 3 (RMSD=0.54).
+ ExecutiveRMS: 1 atoms rejected during cycle 4 (RMSD=0.09).
+ ExecutiveRMS: 1 atoms rejected during cycle 5 (RMSD=0.00).
+ Executive: RMSD =    0.001 (38 to 38 atoms)
+PyMOL>align Evo_6, Evo
+ Match: read scoring matrix.
+ Match: assigning 1 x 1 pairwise scores.
+ MatchAlign: aligning residues (1 vs 1)...
+ MatchAlign: score 5.000
+ ExecutiveAlign: 51 atoms aligned.
+ ExecutiveRMS: 5 atoms rejected during cycle 1 (RMSD=5.16).
+ ExecutiveRMS: 3 atoms rejected during cycle 2 (RMSD=1.98).
+ ExecutiveRMS: 4 atoms rejected during cycle 3 (RMSD=0.61).
+ ExecutiveRMS: 1 atoms rejected during cycle 4 (RMSD=0.00).
+ Executive: RMSD =    0.001 (38 to 38 atoms)
+PyMOL>align Evo_7, Evo
+ Match: read scoring matrix.
+ Match: assigning 1 x 1 pairwise scores.
+ MatchAlign: aligning residues (1 vs 1)...
+ MatchAlign: score 5.000
+ ExecutiveAlign: 51 atoms aligned.
+ ExecutiveRMS: 5 atoms rejected during cycle 1 (RMSD=5.15).
+ ExecutiveRMS: 3 atoms rejected during cycle 2 (RMSD=1.98).
+ ExecutiveRMS: 4 atoms rejected during cycle 3 (RMSD=0.61).
+ ExecutiveRMS: 1 atoms rejected during cycle 4 (RMSD=0.00).
+ Executive: RMSD =    0.001 (38 to 38 atoms)
+PyMOL>align Evo_8, Evo
+ Match: read scoring matrix.
+ Match: assigning 1 x 1 pairwise scores.
+ MatchAlign: aligning residues (1 vs 1)...
+ MatchAlign: score 5.000
+ ExecutiveAlign: 51 atoms aligned.
+ ExecutiveRMS: 4 atoms rejected during cycle 1 (RMSD=3.80).
+ ExecutiveRMS: 3 atoms rejected during cycle 2 (RMSD=1.58).
+ ExecutiveRMS: 5 atoms rejected during cycle 3 (RMSD=0.64).
+ ExecutiveRMS: 1 atoms rejected during cycle 4 (RMSD=0.00).
+ Executive: RMSD =    0.001 (38 to 38 atoms)
+PyMOL>align Evo_9, Evo
+ Match: read scoring matrix.
+ Match: assigning 1 x 1 pairwise scores.
+ MatchAlign: aligning residues (1 vs 1)...
+ MatchAlign: score 5.000
+ ExecutiveAlign: 51 atoms aligned.
+ ExecutiveRMS: 5 atoms rejected during cycle 1 (RMSD=5.05).
+ ExecutiveRMS: 3 atoms rejected during cycle 2 (RMSD=1.85).
+ ExecutiveRMS: 3 atoms rejected during cycle 3 (RMSD=0.53).
+ ExecutiveRMS: 1 atoms rejected during cycle 4 (RMSD=0.05).
+ ExecutiveRMS: 1 atoms rejected during cycle 5 (RMSD=0.00).
+ Executive: RMSD =    0.001 (38 to 38 atoms)
+PyMOL>align Evo_10, Evo
+ Match: read scoring matrix.
+ Match: assigning 1 x 1 pairwise scores.
+ MatchAlign: aligning residues (1 vs 1)...
+ MatchAlign: score 5.000
+ ExecutiveAlign: 51 atoms aligned.
+ ExecutiveRMS: 5 atoms rejected during cycle 1 (RMSD=5.47).
+ ExecutiveRMS: 4 atoms rejected during cycle 2 (RMSD=2.66).
+ ExecutiveRMS: 2 atoms rejected during cycle 3 (RMSD=1.11).
+ ExecutiveRMS: 2 atoms rejected during cycle 4 (RMSD=0.38).
+ ExecutiveRMS: 1 atoms rejected during cycle 5 (RMSD=0.00).
+ Executive: RMSD =    0.001 (37 to 37 atoms)
 
