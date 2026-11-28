@@ -1,4 +1,4 @@
-# Generative Design of BRAF Inhibitors Using a Diffusion-Based Generative Model and De Novo Evolution
+# Design of BRAF Inhibitors Using a Diffusion-Based Generative Model and De Novo Evolution
 
 Supporting data and computational workflows for the manuscript:
 
